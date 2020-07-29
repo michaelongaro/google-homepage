@@ -1,6 +1,6 @@
 * {
     margin: 0;
-
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -15,7 +15,6 @@ body {
 .navbar {
     position: fixed;
     top: 15px;
-    
 }
 
 #top-left-items {
@@ -48,14 +47,52 @@ a:hover, a:active {
 .content-body {
     /* maybe could define # of rows/cols to manage this easier w/o padding*/
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
     row-gap: 2em;
     column-gap: 1em;
-    align-items: center;
-    width: 500px;
-    flex-wrap: wrap;
+    width: 700px;
+    justify-content: center;
+  
+    padding-top: 15em;
     margin: auto;
-    padding-top: 15rem;
+}
+
+.content-body-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    width: 500px;
+    justify-content: space-around;
+  
+    padding-top: 2em;
+    margin: auto;
+}
+
+.content-body button{
+    opacity: 0.75;
+}
+
+#flx-itm-1 {
+
+    width: 272px;
+}
+
+#flx-itm-2 {
+    width: 95%;  
+}
+
+#flx-itm-3 {
+    margin-left: 75px;
+    height: 35px;
+}
+
+#flx-itm-4 {
+    margin-right: 76px;
+    height: 35px;
 }
 
 .footer {
