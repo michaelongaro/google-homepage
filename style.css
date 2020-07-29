@@ -25,12 +25,12 @@ body {
 #top-right-items {
     position: fixed;
     float: right;
-    right: 150px;
+    right: 25px;
 }
 
 #navbar-link li{
     list-style-type: none;
-    display: inline;
+    display: inline-block;
     padding-left: 15px;
     opacity: 0.75;
 }
